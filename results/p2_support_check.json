@@ -1,0 +1,34 @@
+{
+ "all_data": {
+  "rows": 699,
+  "studies": 17,
+  "T_values": {
+   "13.0": 360,
+   "20.0": 272,
+   "26.0": 20,
+   "6.0": 16,
+   "23.0": 14
+  }
+ },
+ "train": {
+  "rows": 593,
+  "studies": 8,
+  "T_values": {
+   "13.0": 360,
+   "20.0": 176,
+   "26.0": 20,
+   "6.0": 16,
+   "23.0": 12
+  }
+ },
+ "all_data_T18_22": {
+  "rows": 277,
+  "studies": 13
+ },
+ "train_T18_22": {
+  "rows": 176,
+  "studies": 5,
+  "sqrt_t_3_to_8": 108
+ },
+ "decision": "condition A (CO2 20 %, T 20 C, RH 70 %, 28 d) kept: well supported (>=100 train rows, >=5 studies at T 18-22 C)"
+}

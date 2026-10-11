@@ -1,0 +1,203 @@
+{
+ "note": "Functional unit: cover target c (mm); mix must satisfy X_up(50 y, natural cond. B) <= c AND be inside condition-A data support (w/b<=0.55, B=350). CO2 = min embodied CO2 among compliant mixes (grid 41x41 over w/b,f). EXTRAPOLATION.",
+ "n_grid": 1681,
+ "frac_supported_A": 1.0,
+ "frac_supported_B_natural_cond": 1.0,
+ "by_method": {
+  "X_up_50y_direct": {
+   "30": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 161.77273928566248,
+    "note": "no supported mix meets this cover"
+   },
+   "40": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 161.77273928566248,
+    "note": "no supported mix meets this cover"
+   },
+   "50": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 161.77273928566248,
+    "note": "no supported mix meets this cover"
+   },
+   "min_cover_needed_any_supported_mix": 161.77273928566248,
+   "max_cover_needed": 589.9389038815443
+  },
+  "X_up_50y_direct_mondnat": {
+   "30": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 213.70279107473982,
+    "note": "no supported mix meets this cover"
+   },
+   "40": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 213.70279107473982,
+    "note": "no supported mix meets this cover"
+   },
+   "50": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 213.70279107473982,
+    "note": "no supported mix meets this cover"
+   },
+   "min_cover_needed_any_supported_mix": 213.70279107473982,
+   "max_cover_needed": 779.3129661467841
+  },
+  "X_up_50y_sqrtCO2_p0.4": {
+   "30": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 46.629514703566606,
+    "note": "no supported mix meets this cover"
+   },
+   "40": {
+    "n_compliant": 0,
+    "min_X_up_50y_in_domain": 46.629514703566606,
+    "note": "no supported mix meets this cover"
+   },
+   "50": {
+    "n_compliant": 45,
+    "min_CO2": 313.11441,
+    "at": {
+     "w_b": 0.35,
+     "f": 0.04,
+     "X_up_50y": 46.629514703566606
+    },
+    "conventional_compliant": []
+   },
+   "min_cover_needed_any_supported_mix": 46.629514703566606,
+   "max_cover_needed": 143.5929205075988
+  },
+  "X_up_50y_sqrtCO2_p0.5": {
+   "30": {
+    "n_compliant": 179,
+    "min_CO2": 255.69621,
+    "at": {
+     "w_b": 0.35,
+     "f": 0.22,
+     "X_up_50y": 29.721910426168428
+    },
+    "conventional_compliant": []
+   },
+   "40": {
+    "n_compliant": 555,
+    "min_CO2": 201.46791000000002,
+    "at": {
+     "w_b": 0.35,
+     "f": 0.39,
+     "X_up_50y": 39.210311139377986
+    },
+    "conventional_compliant": []
+   },
+   "50": {
+    "n_compliant": 868,
+    "min_CO2": 198.27801000000002,
+    "at": {
+     "w_b": 0.35,
+     "f": 0.4,
+     "X_up_50y": 41.12055134063827
+    },
+    "conventional_compliant": [
+     {
+      "label": "conventional f=0%",
+      "CO2": 325.8843
+     }
+    ]
+   },
+   "min_cover_needed_any_supported_mix": 25.047472927221975,
+   "max_cover_needed": 77.13225956289277
+  },
+  "X_up_50y_sqrtCO2_p0.6": {
+   "30": {
+    "n_compliant": 996,
+    "min_CO2": 198.27801000000002,
+    "at": {
+     "w_b": 0.35,
+     "f": 0.4,
+     "X_up_50y": 22.088281021603688
+    },
+    "conventional_compliant": [
+     {
+      "label": "conventional f=0%",
+      "CO2": 325.8843
+     }
+    ]
+   },
+   "40": {
+    "n_compliant": 1580,
+    "min_CO2": 198.27801000000002,
+    "at": {
+     "w_b": 0.35,
+     "f": 0.4,
+     "X_up_50y": 22.088281021603688
+    },
+    "conventional_compliant": [
+     {
+      "label": "conventional f=0%",
+      "CO2": 325.8843
+     },
+     {
+      "label": "conventional f=20%",
+      "CO2": 262.0863
+     },
+     {
+      "label": "conventional f=30%",
+      "CO2": 230.1873
+     }
+    ]
+   },
+   "50": {
+    "n_compliant": 1681,
+    "min_CO2": 198.27801000000002,
+    "at": {
+     "w_b": 0.35,
+     "f": 0.4,
+     "X_up_50y": 22.088281021603688
+    },
+    "conventional_compliant": [
+     {
+      "label": "conventional f=0%",
+      "CO2": 325.8843
+     },
+     {
+      "label": "conventional f=20%",
+      "CO2": 262.0863
+     },
+     {
+      "label": "conventional f=30%",
+      "CO2": 230.1873
+     }
+    ]
+   },
+   "min_cover_needed_any_supported_mix": 13.454478147066315,
+   "max_cover_needed": 41.43229699056645
+  }
+ },
+ "conventional_B": [
+  {
+   "label": "conventional f=0%",
+   "X_up_50y_direct": 448.35284347770687,
+   "X_up_50y_direct_mondnat": 592.2770163972157,
+   "X_up_50y_sqrtCO2_p0.4": 83.90728932210358,
+   "X_up_50y_sqrtCO2_p0.5": 45.07157196111963,
+   "X_up_50y_sqrtCO2_p0.6": 24.210605647565966,
+   "CO2": 325.8843
+  },
+  {
+   "label": "conventional f=20%",
+   "X_up_50y_direct": 573.5715926003818,
+   "X_up_50y_direct_mondnat": 757.6918604934505,
+   "X_up_50y_sqrtCO2_p0.4": 134.6038078045125,
+   "X_up_50y_sqrtCO2_p0.5": 72.30367634774831,
+   "X_up_50y_sqrtCO2_p0.6": 38.838579930469415,
+   "CO2": 262.0863
+  },
+  {
+   "label": "conventional f=30%",
+   "X_up_50y_direct": 573.1233298283956,
+   "X_up_50y_direct_mondnat": 757.0995477868289,
+   "X_up_50y_sqrtCO2_p0.4": 134.54066511084895,
+   "X_up_50y_sqrtCO2_p0.5": 72.26975854993987,
+   "X_up_50y_sqrtCO2_p0.6": 38.82035968828268,
+   "CO2": 230.1873
+  }
+ ]
+}

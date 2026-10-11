@@ -1,0 +1,123 @@
+{
+ "note": "Sign constraints: +w/b, +w/c, +CO2, +T, -t_cure, +sqrt_t (RH, FA unconstrained). ICE over 209 unique test mixes, 15-pt grids (5-95 pct of train), XGB 3 seeds; MX evaluated at sqrt_t=9 for non-time variables. Fractions = mixes whose single-variable curve violates the sign anywhere / drops >5% relative.",
+ "violations": {
+  "MX": {
+   "w/b": {
+    "frac_mixes_any_violation": 0.996810207336523,
+    "frac_mixes_drop_gt5pct": 0.8755980861244019,
+    "sign_required": 1
+   },
+   "w/c": {
+    "frac_mixes_any_violation": 0.8277511961722488,
+    "frac_mixes_drop_gt5pct": 0.1499202551834131,
+    "sign_required": 1
+   },
+   "CO2": {
+    "frac_mixes_any_violation": 0.4226475279106858,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "T": {
+    "frac_mixes_any_violation": 0.4752791068580542,
+    "frac_mixes_drop_gt5pct": 0.009569377990430622,
+    "sign_required": 1
+   },
+   "t_cure": {
+    "frac_mixes_any_violation": 0.3604465709728868,
+    "frac_mixes_drop_gt5pct": 0.07496012759170655,
+    "sign_required": -1
+   },
+   "sqrt_t": {
+    "frac_mixes_any_violation": 0.1164274322169059,
+    "frac_mixes_drop_gt5pct": 0.003189792663476874,
+    "sign_required": 1
+   }
+  },
+  "Mk": {
+   "w/b": {
+    "frac_mixes_any_violation": 0.07655502392344497,
+    "frac_mixes_drop_gt5pct": 0.07655502392344497,
+    "sign_required": 1
+   },
+   "w/c": {
+    "frac_mixes_any_violation": 0.48484848484848486,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "CO2": {
+    "frac_mixes_any_violation": 0.2503987240829346,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "T": {
+    "frac_mixes_any_violation": 0.26953748006379585,
+    "frac_mixes_drop_gt5pct": 0.22647527910685805,
+    "sign_required": 1
+   },
+   "t_cure": {
+    "frac_mixes_any_violation": 0.06858054226475278,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": -1
+   }
+  },
+  "MXm3": {
+   "w/b": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "w/c": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "CO2": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "T": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "t_cure": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": -1
+   },
+   "sqrt_t": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   }
+  },
+  "Mkm": {
+   "w/b": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "w/c": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "CO2": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "T": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": 1
+   },
+   "t_cure": {
+    "frac_mixes_any_violation": 0.0,
+    "frac_mixes_drop_gt5pct": 0.0,
+    "sign_required": -1
+   }
+  }
+ }
+}

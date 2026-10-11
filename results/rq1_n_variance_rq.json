@@ -1,0 +1,59 @@
+{
+ "note": "MixedLM (REML) per-series n, random intercept per study. ICC = var_study/(var_study+var_resid). Fixed effects: log10 CO2, w/c, FA/100, RH/10, T/10, t_cure/10. marginal R2 = var(fixed part)/(var_fixed+var_study+var_resid) (Nakagawa). Note: studies with one series contribute to resid only; fixed-effect variables are largely study-constant so ICC after adjustment is not a clean test.",
+ "n_series": 278,
+ "n_studies": 25,
+ "series_per_study": {
+  "min": 1,
+  "median": 11.0,
+  "max": 48
+ },
+ "null": {
+  "var_study": 0.007120933331880229,
+  "var_resid": 0.023709515619364043,
+  "icc": 0.23097079588887526,
+  "var_fixed": 3.0814879110195774e-33,
+  "marginal_R2": 9.994949849393007e-32,
+  "conditional_R2": 0.23097079588887526,
+  "converged": true
+ },
+ "with_fixed": {
+  "var_study": 0.013286085033224692,
+  "var_resid": 0.020811902058744697,
+  "icc": 0.38964426250116607,
+  "var_fixed": 0.006436999572461158,
+  "marginal_R2": 0.15880107783801556,
+  "conditional_R2": 0.4865694114805978,
+  "converged": true
+ },
+ "fixed_effects": {
+  "Intercept": {
+   "coef": -1.417950389690925,
+   "p": 0.00024941819096086263
+  },
+  "lco2": {
+   "coef": -0.05189031228598517,
+   "p": 0.019557938825069336
+  },
+  "wc": {
+   "coef": 0.0012398581892826542,
+   "p": 0.964196567217776
+  },
+  "FA100": {
+   "coef": 0.006560006420818517,
+   "p": 0.5442491183151805
+  },
+  "RH10": {
+   "coef": 0.25857393543524637,
+   "p": 4.2505414493917987e-07
+  },
+  "T10": {
+   "coef": 0.07628603182528254,
+   "p": 0.07838562029263017
+  },
+  "tc10": {
+   "coef": -0.00020333562698321919,
+   "p": 0.7403799294601983
+  }
+ },
+ "icc_change": 0.15867346661229081
+}

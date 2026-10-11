@@ -1,0 +1,55 @@
+{
+  "RandomForest": {
+    "best_params": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_leaf": 4,
+      "max_features": 1.0,
+      "random_state": 42,
+      "n_jobs": -1
+    },
+    "tune_val_rmse": 8.437932771711758,
+    "train_rmse": 6.196313291249121,
+    "train_mae": 4.497563948951365,
+    "test_rmse": 7.422595441912512,
+    "test_mae": 5.352414093109314,
+    "test_r2": 0.5934506718182886,
+    "n_configs_tried": 150
+  },
+  "XGBoost": {
+    "best_params": {
+      "n_estimators": 300,
+      "max_depth": 3,
+      "learning_rate": 0.01,
+      "subsample": 0.8,
+      "colsample_bytree": 1.0,
+      "min_child_weight": 2,
+      "reg_lambda": 0.1,
+      "random_state": 42
+    },
+    "tune_val_rmse": 8.518023109315251,
+    "train_rmse": 6.343055871716079,
+    "train_mae": 4.64582660918725,
+    "test_rmse": 7.360192780455057,
+    "test_mae": 5.365723360750765,
+    "test_r2": 0.6002577562034419,
+    "n_configs_tried": 150
+  },
+  "CatBoost": {
+    "best_params": {
+      "iterations": 500,
+      "depth": 7,
+      "learning_rate": 0.1,
+      "l2_leaf_reg": 10,
+      "random_state": 42,
+      "verbose": false
+    },
+    "tune_val_rmse": 9.255813578234815,
+    "train_rmse": 3.4367210310438785,
+    "train_mae": 1.9302810520244764,
+    "test_rmse": 7.696238193036623,
+    "test_mae": 5.441964786538762,
+    "test_r2": 0.5629222817065852,
+    "n_configs_tried": 150
+  }
+}

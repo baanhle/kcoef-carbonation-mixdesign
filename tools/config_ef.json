@@ -1,0 +1,8 @@
+{
+  "_comment": "Embodied CO2 factors, kg CO2e per kg of material. Base: Wang 2019, Materials 12:2448, Table 1. System boundary A1-A3, binder (cement, fly ash) and water ONLY; aggregates and admixtures excluded => totals are PARTIAL. Update with verified values and rerun p2_nsga.py.",
+  "EF_c": 0.931,
+  "EF_fa": 0.0196,
+  "EF_w": 0.000196,
+  "sensitivity": {"EF_c": [0.931, 0.967], "EF_fa": [0.0032, 0.0196], "EF_w": [0.000196, 0.0004]},
+  "sensitivity_sources": {"EF_c": "0.931 Wang 2019 vs 0.967 AusLCI (NSW 2025)", "EF_fa": "0.0032 vs 0.0196", "EF_w": "0.0004 NSW 2025"}
+}

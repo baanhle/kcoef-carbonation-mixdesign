@@ -1,0 +1,249 @@
+{
+ "note": "Condition B (20 C, 65 % RH, 0.04 % CO2, 50 y) EXTRAPOLATION. X_up(50y) = k_up(cond A, conformal alpha=0.10) * (0.04/20)^p * t^n, p = p-hat 0.300 (cluster-bootstrap 95% CI 0.239-0.366, 8 natural studies; p1e_calibrated_p.json). Band reflects uncertainty in p ONLY (not conformal/model/time-extrapolation uncertainty; 50 y is ~10x the longest natural exposure). Functional unit: min CO2 over a 61x41 (w/b,f) grid satisfying all constraints and X_up(50y)<=cover.",
+ "by_case": {
+  "weq055": {
+   "n_feasible": 1049,
+   "p_hat": {
+    "p": 0.29964871714218316,
+    "min_cover_needed_feasible": 86.99733866974172,
+    "max_cover_needed_feasible": 253.96082026935719,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "p_lo(CI low -> larger depth)": {
+    "p": 0.23942158411288564,
+    "min_cover_needed_feasible": 126.4902939281046,
+    "max_cover_needed_feasible": 369.2477977032395,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "p_hi(CI high -> smaller depth)": {
+    "p": 0.3660102347652937,
+    "min_cover_needed_feasible": 57.59678125071918,
+    "max_cover_needed_feasible": 168.13532741505003,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "conventional": [
+    {
+     "label": "conventional W=175, w/b=0.50, f=0%",
+     "X_up_50y_p_hat": 156.54701168976572,
+     "X_up_50y_band": [
+      103.64229653213306,
+      227.61245175828728
+     ],
+     "CO2": 325.8843,
+     "violated": []
+    },
+    {
+     "label": "conventional W=175, w/b=0.50, f=20%",
+     "X_up_50y_p_hat": 251.13222900532998,
+     "X_up_50y_band": [
+      166.26265812358008,
+      365.13516401291554
+     ],
+     "CO2": 262.0863,
+     "violated": [
+      "w_eq"
+     ]
+    },
+    {
+     "label": "conventional W=175, w/b=0.50, f=30%",
+     "X_up_50y_p_hat": 251.01442306745494,
+     "X_up_50y_band": [
+      166.18466128746775,
+      364.96388316222493
+     ],
+     "CO2": 230.1873,
+     "violated": [
+      "w_eq",
+      "C_min"
+     ]
+    }
+   ]
+  },
+  "weq050": {
+   "n_feasible": 697,
+   "p_hat": {
+    "p": 0.29964871714218316,
+    "min_cover_needed_feasible": 86.99733866974172,
+    "max_cover_needed_feasible": 159.78157925517408,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "p_lo(CI low -> larger depth)": {
+    "p": 0.23942158411288564,
+    "min_cover_needed_feasible": 126.4902939281046,
+    "max_cover_needed_feasible": 232.31536389301263,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "p_hi(CI high -> smaller depth)": {
+    "p": 0.3660102347652937,
+    "min_cover_needed_feasible": 57.59678125071918,
+    "max_cover_needed_feasible": 105.78375027238783,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "conventional": [
+    {
+     "label": "conventional W=175, w/b=0.50, f=0%",
+     "X_up_50y_p_hat": 156.54701168976572,
+     "X_up_50y_band": [
+      103.64229653213306,
+      227.61245175828728
+     ],
+     "CO2": 325.8843,
+     "violated": []
+    },
+    {
+     "label": "conventional W=175, w/b=0.50, f=20%",
+     "X_up_50y_p_hat": 251.13222900532998,
+     "X_up_50y_band": [
+      166.26265812358008,
+      365.13516401291554
+     ],
+     "CO2": 262.0863,
+     "violated": [
+      "w_eq"
+     ]
+    },
+    {
+     "label": "conventional W=175, w/b=0.50, f=30%",
+     "X_up_50y_p_hat": 251.01442306745494,
+     "X_up_50y_band": [
+      166.18466128746775,
+      364.96388316222493
+     ],
+     "CO2": 230.1873,
+     "violated": [
+      "w_eq",
+      "C_min"
+     ]
+    }
+   ]
+  },
+  "weq060": {
+   "n_feasible": 1388,
+   "p_hat": {
+    "p": 0.29964871714218316,
+    "min_cover_needed_feasible": 86.99733866974172,
+    "max_cover_needed_feasible": 268.22712136014576,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "p_lo(CI low -> larger depth)": {
+    "p": 0.23942158411288564,
+    "min_cover_needed_feasible": 126.4902939281046,
+    "max_cover_needed_feasible": 389.99038405443025,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "p_hi(CI high -> smaller depth)": {
+    "p": 0.3660102347652937,
+    "min_cover_needed_feasible": 57.59678125071918,
+    "max_cover_needed_feasible": 177.58035654996044,
+    "30": {
+     "n": 0
+    },
+    "40": {
+     "n": 0
+    },
+    "50": {
+     "n": 0
+    }
+   },
+   "conventional": [
+    {
+     "label": "conventional W=175, w/b=0.50, f=0%",
+     "X_up_50y_p_hat": 156.54701168976572,
+     "X_up_50y_band": [
+      103.64229653213306,
+      227.61245175828728
+     ],
+     "CO2": 325.8843,
+     "violated": []
+    },
+    {
+     "label": "conventional W=175, w/b=0.50, f=20%",
+     "X_up_50y_p_hat": 251.13222900532998,
+     "X_up_50y_band": [
+      166.26265812358008,
+      365.13516401291554
+     ],
+     "CO2": 262.0863,
+     "violated": []
+    },
+    {
+     "label": "conventional W=175, w/b=0.50, f=30%",
+     "X_up_50y_p_hat": 251.01442306745494,
+     "X_up_50y_band": [
+      166.18466128746775,
+      364.96388316222493
+     ],
+     "CO2": 230.1873,
+     "violated": [
+      "w_eq",
+      "C_min"
+     ]
+    }
+   ]
+  }
+ }
+}

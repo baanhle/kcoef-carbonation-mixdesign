@@ -1,0 +1,102 @@
+{
+ "note": "p fitted by least squares on natural rows (n=119, 8 studies: ['[63]', '[64]', '[65]', '[66]', '[67]', '[69]', '[70]', '[71]']). Accelerated-only models, 10-seed ensemble; X_k evaluated at CO2=20 % for each natural row, scaled by (CO2/20)^p. Cluster bootstrap resamples natural STUDIES (2000 reps); with so few studies the cluster CI is coarse and a row bootstrap (2000 reps, rows treated as independent, over-optimistic) is also given. LOSO = p refitted leaving one natural study out. NOTE natural CO2 is ~constant (0.03-0.05 %), so p is essentially a single level-calibration constant (p and a multiplicative scale are confounded) - valid only for ~0.04 % CO2, not a validated CO2 exponent.",
+ "natural_mean_depth": 6.821313361344538,
+ "natural_co2_range": [
+  0.03,
+  0.05
+ ],
+ "results": {
+  "Mk": {
+   "p_hat": 0.33190293413333005,
+   "ci95_cluster_bootstrap": [
+    0.2714659340695149,
+    0.39919528055800585
+   ],
+   "n_distinct_cluster_boot": 871,
+   "ci95_row_bootstrap": [
+    0.3124749660243553,
+    0.3514467229797084
+   ],
+   "loso_p": {
+    "[63]": 0.31743398856609084,
+    "[64]": 0.33135796945811014,
+    "[65]": 0.33117789879134546,
+    "[66]": 0.3252346008405345,
+    "[67]": 0.3551689720763713,
+    "[69]": 0.3450612804581492,
+    "[70]": 0.3372318492161959,
+    "[71]": 0.3160107928073962
+   },
+   "loso_range": [
+    0.3160107928073962,
+    0.3551689720763713
+   ],
+   "at_p_hat": {
+    "rmse": 4.220372444946854,
+    "bias": -0.6962846575058433,
+    "mae": 3.341983150155324
+   },
+   "at_p_0p5": {
+    "rmse": 6.072523891405071,
+    "bias": -4.6972309222259625,
+    "mae": 4.714427152398802
+   },
+   "at_ci_lo": {
+    "rmse": 5.2336100531633925,
+    "bias": 2.1440661959888008,
+    "mae": 4.272436390171048
+   },
+   "at_ci_hi": {
+    "rmse": 4.81070076915053,
+    "bias": -2.8132048549516777,
+    "mae": 3.463761087134244
+   }
+  },
+  "Mkn_g": {
+   "p_hat": 0.29964871714218316,
+   "ci95_cluster_bootstrap": [
+    0.23942158411288564,
+    0.3660102347652937
+   ],
+   "n_distinct_cluster_boot": 865,
+   "ci95_row_bootstrap": [
+    0.2800285341776541,
+    0.31998969934792615
+   ],
+   "loso_p": {
+    "[63]": 0.28619861686504794,
+    "[64]": 0.2989776349171526,
+    "[65]": 0.29906081696479264,
+    "[66]": 0.2943233821359773,
+    "[67]": 0.32306152911730046,
+    "[69]": 0.30986639633843793,
+    "[70]": 0.3043400618126858,
+    "[71]": 0.2847256830625528
+   },
+   "loso_range": [
+    0.2847256830625528,
+    0.32306152911730046
+   ],
+   "at_p_hat": {
+    "rmse": 4.04021400185915,
+    "bias": -0.5269874332502282,
+    "mae": 3.2188695340872338
+   },
+   "at_p_0p5": {
+    "rmse": 6.330525801812863,
+    "bias": -5.041257415283602,
+    "mae": 5.041257415283602
+   },
+   "at_ci_lo": {
+    "rmse": 5.114427467921447,
+    "bias": 2.382068287810899,
+    "mae": 4.198934394700335
+   },
+   "at_ci_hi": {
+    "rmse": 4.66003973046196,
+    "bias": -2.6793702170009333,
+    "mae": 3.309302079703891
+   }
+  }
+ }
+}

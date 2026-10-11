@@ -1,0 +1,47 @@
+{
+ "note": "Mk target k=X/sqrt_t; configs {raw k, log k} x {unweighted, weights sqrt_t^2 (=X-space loss)}; selected on X-space RMSE of study-grouped validation inside train (fit on proper-train, validate on calibration studies), 3 seeds. Chosen cfg is reused for Mkn.",
+ "cfg_val_rmse_Mk": {
+  "log=False,w=False": 11.601065822639995,
+  "log=False,w=True": 10.03671933221078,
+  "log=True,w=False": 9.851808162593043,
+  "log=True,w=True": 9.869268984163314
+ },
+ "chosen_cfg": {
+  "log": true,
+  "w": false
+ },
+ "kinds_val_rmse_chosen_cfg": {
+  "MX": 8.166118613866166,
+  "MXm1": 8.332292669830018,
+  "MXm3": 8.652373932194466,
+  "Mk": 9.851808162593043,
+  "Mkn_g": 9.497899245184506,
+  "Mkn_r": 10.434200906646803,
+  "Mkc": 9.18368151624914,
+  "Mkcn_g": 9.132478726473236,
+  "Mkm": 9.719002416373462
+ },
+ "best_k_model_by_val": "Mkn_g",
+ "n_fitted_on_train": {
+  "global": 0.44734729011610785,
+  "natural": 0.47898054703904835,
+  "accelerated": 0.4460461212895138
+ },
+ "n_fit_method": "within-series OLS of log X on log t(days) (series fixed effects), series with >=2 distinct times",
+ "mono_constraints": {
+  "MXm1": {
+   "sqrt_t": 1
+  },
+  "MXm3": {
+   "sqrt_t": 1,
+   "w/b": 1,
+   "w/c": 1,
+   "CO2": 1,
+   "T": 1,
+   "t_cure": -1
+  }
+ },
+ "mono_note": "MX-mono(t): +1 on sqrt_t only. MX-mono(full)=MXm3: +w/b, +w/c, +CO2, +T, -t_cure, +sqrt_t; RH and FA unconstrained. Mk-mono (Mkm): same on the 7 non-time inputs (no sqrt_t, k-space). Mk (non-mono) shown as Mk. RF has no monotone option (not run).",
+ "n_val": 371,
+ "n_proper_train": 1319
+}
